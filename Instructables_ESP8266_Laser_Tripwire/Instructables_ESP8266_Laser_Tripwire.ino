@@ -17,7 +17,7 @@ const char* password = "YOUR WIFI PASSWORD";
 // AUTOREMOTE URL
 ///////////////////////////////////
 const char* host = "autoremotejoaomgcd.appspot.com";
-const char* url = "/sendmessage?key=<YOUR KEY HERE!>&message=LA";
+const char* url = "/sendmessage?key=<YOUR KEY HERE!>&message=LA"; // Don't leave the <>, they should be gone.
 
 ///////////////////////////////////
 // PIN ASSIGNMENTS
