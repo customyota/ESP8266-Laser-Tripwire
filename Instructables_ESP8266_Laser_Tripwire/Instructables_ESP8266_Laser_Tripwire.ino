@@ -13,7 +13,7 @@ const char* password = "YOUR WIFI PASSWORD";
 // AUTOREMOTE URL
 ///////////////////////////////////
 const char* host = "autoremotejoaomgcd.appspot.com";
-const char* url = "/sendmessage?key=<YOUR KEY HERE!>&message=Laser%20Alarm!";
+const char* url = "/sendmessage?key=<YOUR KEY HERE!>&message=LA";
 
 ///////////////////////////////////
 // PIN ASSIGNMENTS
@@ -49,7 +49,7 @@ void send_alarm_trigger() {
   const int httpPort = 80;
   client.connect(host, httpPort);
 
-  //// Get URLto send message //// 
+  //// Get URL to send message //// 
   //// Times out after f 5 seconds ////
   client.print(String("GET ") + url + " HTTP/1.1\r\n" +
                "Host: " + host + "\r\n" +
