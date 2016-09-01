@@ -1,5 +1,9 @@
+// Author: customyota
+// License: WTFPL 
+// Full liscense text available at http://www.wtfpl.net/about/
 // V 0.1
-// Tested: TBD
+
+// Disclaimer: Do not shoot lasers into your eyes or the eyes of others.
 
 #include <ESP8266WiFi.h>
 
