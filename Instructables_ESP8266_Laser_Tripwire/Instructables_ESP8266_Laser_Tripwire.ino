@@ -24,7 +24,7 @@ const char* url = "/sendmessage?key=<YOUR KEY HERE!>&message=LA"; // Don't leave
 ///////////////////////////////////
 const int laserPin = D2;   // GPIO4 = board D2
 const int sensorPin = D1;  // GPIO5 = board D1
-const int laserBrightness = 512;
+const int laserBrightness = 50; // Range is 0-1024, but really once you go higher than around 200, I couldn't notice a difference
 
 ///////////////////////////////////
 // Default laser to not ready
